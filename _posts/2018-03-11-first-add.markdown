@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "first add to Jekyll!"  
+title:  "First Add to Jekyll!"  
 date:   2018-03-11 10:13:10 +0800
-categories: jekyll update
+categories:
 ---
 
 Hello Jekyll
