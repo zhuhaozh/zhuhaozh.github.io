@@ -1,5 +1,5 @@
 ---
-layout: unpublished
+layout: post
 title:  "安大复试数据库复习提纲"  
 date:   2018-03-11 14:48:10 +0800
 categories: 大学课程 安大复试
@@ -18,4 +18,4 @@ ls -l /dev/disk/by-uuid
 
 
 ----
-出现的问题：cp / /media/zhuhao/ubuntunew 空间不足 
+出现的问题：cp / /media/zhuhao/ubuntunew 空间不足

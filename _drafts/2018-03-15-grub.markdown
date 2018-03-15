@@ -1,5 +1,5 @@
 ---
-layout: unpublished
+layout: post
 title:  "Ubuntu Grub2 配置文件修改启动时间"  
 date:   2018-03-15 10:40:10 +0800
 categories: ubuntu
