@@ -1,0 +1,20 @@
+---
+layout: unpublished
+title:  "Ubuntu Grub2 配置文件修改启动时间"  
+date:   2018-03-15 10:40:10 +0800
+categories: ubuntu
+tags: ubuntu grub
+---
+
+ 修改grub2配置文件
+```
+sudo vim /etc/default/
+```
+
+修改 GRUB_TIMEOUT=5
+将5改为想要的数值，单位秒，-1取消等待
+
+更新配置文件：
+```
+update-grub
+```

@@ -1,0 +1,21 @@
+---
+layout: unpublished
+title:  "安大复试数据库复习提纲"  
+date:   2018-03-11 14:48:10 +0800
+categories: 大学课程 安大复试
+---
+
+修改uuid
+-  /etc/fstab
+-  /boot/grub/grub.cfg
+
+
+查看硬盘uuid
+ls -l /dev/disk/by-uuid
+
+
+新的分区uuid：f1a21b69-e268-4256-9fdc-b1d280bc9f19
+
+
+----
+出现的问题：cp / /media/zhuhao/ubuntunew 空间不足 
