@@ -1,0 +1,12 @@
+
+开始安装
+```
+sudo apt-get install fcitx
+sudo apt-get install fcitx-config-gtk
+sudo apt-get install fcitx-table-all
+sudo apt-get install im-switch
+```
+下载搜狗deb安装包
+```
+sudo dpkg -i xx/xx/xx/sogouxxxx.deb
+```
