@@ -1,9 +1,12 @@
 ---
 layout: post
-title:  "ubuntu17.10/18.04安装cuda小记"
-date:   2018-04-25 02:22:00 +0800
+title:  "ubuntu17.10/18.04 安装cuda小记"
+date:   2018-04-25 22:18:00 +0800
 categories: ubuntu pytorch cuda
 ---
+* content
+{:toc}
+
 因为使用pytorch，所以打算安装一下cuda，但是中间碰到各种问题目前终于解决，我所使用的系统是ubuntu17.10(原本使用的是ubuntu18.04后来因为显卡问题重装了一下系统)，显卡是intel集显+nivdia940
 
 目前**pytorch最新版本不再支持9系的显卡**，如果需要使用，则必须自己手动编译pytorch
@@ -93,6 +96,7 @@ alias lbm-nouveau off
 2. 为了保险起见，可继续将gdm改为传统的x11
 打开/etc/gdm3/custom.conf文件，并取消WaylandEnable=false这一行的注释
 此时该配置文件的前几行类似如下
+
 ```
 # GDM configuration storage
 # # See /usr/share/gdm/gdm.schemas for a list of available options.
