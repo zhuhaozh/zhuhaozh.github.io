@@ -1,8 +1,8 @@
 ---
 layout: post
-title: >-
+title: "
   论文阅读：High-Resolution Image Synthesis and Semantic Manipulation with
-  Conditional GANs
+  Conditional GANs"
 date: '2018-04-27 00:02'
 categories: cvpr gans paper-read
 ---
@@ -91,7 +91,7 @@ Second, we propose a method to generate diverse results given the same input lab
 ### The pix2pix Baseline
 pix2pix 方法是一个完成图像到图像转换的cGAN框架，它包含一个生成器G和判别器D。而对于我们的任务中，生成器G是为了将语义标注图转换成一个类似真实的图片，同时D的目标是为了分辨图片是真实的还是转换而来的生成图片。这个框架使用监督的方式执行。即在训练数据集中，给出的是$$ images{(s_i,x_i)} $$
 ，s_i 是语义标注图，xi是对应的真实照片。cGAN则是为了通过“最大最小游戏：min(G)max(D)Loss_GAN(G,D)”，生成一个条件分布：P(x_i|s_i)，其中的Loss_GAN(G,D)为：
-![loss(G,D)](images/2018/04/loss-g-d.png)
+![loss(G,D)](/images/2018/04/loss-g-d.png)
 
 在pix2pix方法中，采用了一个U-Net作为生成器和一个patch-based fully convolutional network 作为判别器，给判别器输入的是一个channel-wise concatenation of the semantic label map and the corresponding image
 然而，使用Cityscapes生成的图片的分辨率只有256*256，也同样测试直接将pix2pix应用在高分辨率的场合，但训练的十分不稳定且效果不好
@@ -106,4 +106,4 @@ a robust adversarial learning objective function 来改进pix2pix框架
 G1(Global Generator)建立在由Johnson等人提出的架构[22]上，该架构已被证明能够成功的运用在512*512的风格转换网络上。该架构包括三个组件：a convolutional front-end G1(F), a set of residual blocks G1(R) [18], and a transposed convolutional back-end G1(B)
 
 G2同样包括三个组件：a convolutional front-end G2(F), a set of residual blocks G2(R), and a transposed convolutional back-end G2(B)
-![architecture of generator](images/2018/04/architecture-of-generator.png)
+![architecture of generator](/images/2018/04/architecture-of-generator.png)
