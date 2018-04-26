@@ -2,7 +2,8 @@
 layout: post
 title:  "ubuntu17.10/18.04 安装cuda小记"
 date:   2018-04-25 22:18:00 +0800
-categories: ubuntu pytorch cuda
+categories: ubuntu
+tags: pytorch cuda
 ---
 * content
 {:toc}
@@ -72,7 +73,7 @@ EndSection
 根据[该网址](https://charlienewey.github.io/getting-nvidia-drivers-working-on-ubuntu-17-10/)的步骤安装显卡驱动
 具体步骤如下：
 #### (1) 删除已有的nvidia驱动
-执行以下指令，系统将自动删除以'nvidia'开头的软件; 
+执行以下指令，系统将自动删除以'nvidia'开头的软件;
 sudo apt-get autoremove --purge '^nvidia'.
 #### (2) 将开源的nouveau驱动设置到黑名单中
 由于nvidia可以已经提前替我们做过这一步，所以使用：ls /etc/modprobe.d/nvidia-*.conf 查看是否已经存在相应的文件，同时文件中包含以下的配置内容，如果存在的话，这一步可以跳过。
@@ -109,7 +110,7 @@ WaylandEnable=false
 
 此时通过 nvidia-smi 判断nvidia驱动是否正确安装
 如果有类似的输出则表示驱动已经安装成功
-![nvidia-sml](/home/zhuhao/Pictures/Screenshot from 2018-04-25 21-53-10.png) 
+![nvidia-sml](/home/zhuhao/Pictures/Screenshot from 2018-04-25 21-53-10.png)
 
 ### 3. 安装cuda
 由于我们已经自己安装了nvidia的驱动，所以可以使用cuda的runfile形式安装，安装步骤参考[AskUbuntu的提问](https://askubuntu.com/questions/967332/how-can-i-install-cuda-9-on-ubuntu-17-10?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa)
@@ -136,7 +137,7 @@ sudo apt install g++-6
 并将该文件设置为可执行文件，**注意后面的--override需要加上！**
 ：
 ```
-chmod +x cuda_xxxxxxx.run 
+chmod +x cuda_xxxxxxx.run
 sudo ./cuda_xxxxxxx.run --override
 ```
 之后会出现一些Y/N的选择，由于已经安装好了nvidia驱动，所以我们不需要它来替我们安装驱动，具体的选择如下
@@ -190,7 +191,7 @@ sudo ln -s /usr/bin/g++-6 /usr/local/cuda/bin/g++
 ```
 cd ~/NVIDIA_CUDA-9.0_Samples/5_Simulations/smokeParticles
 make
-../../bin/x86_64/linux/release/smokeParticles 
+../../bin/x86_64/linux/release/smokeParticles
 ```
 如果出现了一个动态烟雾的图案，则说明成功
 

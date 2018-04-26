@@ -3,7 +3,7 @@ layout: post
 title:  "Ubuntu Grub2 配置文件修改启动时间"  
 date:   2018-03-18 15:40:00 +0800
 categories: ubuntu
-tags: ubuntu grub
+tags: grub
 ---
 
  修改grub2配置文件

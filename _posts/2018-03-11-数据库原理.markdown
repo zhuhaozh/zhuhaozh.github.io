@@ -2,7 +2,8 @@
 layout: post
 title:  "安大复试数据库复习提纲"  
 date:   2018-03-11 14:48:10 +0800
-categories: 大学课程 安大复试
+categories: 大学课程
+tags: 安大复试
 ---
 
 ## 第一章

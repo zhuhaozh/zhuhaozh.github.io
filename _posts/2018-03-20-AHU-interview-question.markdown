@@ -2,7 +2,8 @@
 layout: post
 title:  "安大复试题总结"  
 date:   2018-03-23 07:35:00 +0800
-categories : 大学课程 安大复试
+categories : 大学课程
+tags: 安大复试
 ---
 * content
 {:toc}
