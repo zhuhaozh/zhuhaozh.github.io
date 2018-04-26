@@ -7,7 +7,7 @@ date: '2018-04-27 00:02'
 categories: paper-read
 tags: cvpr gans
 ---
-* 目录
+* content
 {:toc}
 
 High-Resolution Image Synthesis and Semantic Manipulation with Conditional GANs
