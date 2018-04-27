@@ -16,6 +16,10 @@ GRUB_DEFAULT=0
 # 注释掉下面这行将会显示引导菜单
 #GRUB_HIDDEN_TIMEOUT=0
 
+
+
+
+
 # 黑屏，并且不显示GRUB_HIDDEN_TIMEOUT过程中的倒计时
 GRUB_HIDDEN_TIMEOUT_QUIET=true
 
