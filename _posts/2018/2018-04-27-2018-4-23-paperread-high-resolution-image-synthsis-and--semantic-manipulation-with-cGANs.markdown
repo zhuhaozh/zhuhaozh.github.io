@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ' 论文阅读笔记：High-Resolution Image Synthesis and Semantic Manipulation with Conditional GANs'
+title: '论文阅读笔记：High-Resolution Image Synthesis and Semantic Manipulation with Conditional GANs'
 date: '2018-04-27 14:02'
 categories: paper-read
 tags: cvpr2018 gans

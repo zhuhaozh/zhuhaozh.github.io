@@ -1,6 +1,6 @@
 ---
 layout: post
-title: cs231n-lecture3-notes
+title: cs231n lecture3笔记
 date: '2018-04-28 16:56'
 tags: cs231n
 mathjax: true
