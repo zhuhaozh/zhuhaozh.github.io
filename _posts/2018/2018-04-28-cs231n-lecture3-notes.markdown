@@ -1,9 +1,10 @@
 ---
-layout: "post"
-title: "cs231n-lecture3-notes"
-date: "2018-04-28 13:27"
+layout: post
+title: cs231n-lecture3-notes
+date: '2018-04-28 16:56'
 tags: cs231n
 ---
+
 ## Loss function
 一个损失函数能够告诉我们当前的分类器的效果如何。
 整个数据集上的损失是数据集中每个样本的损失总和。
