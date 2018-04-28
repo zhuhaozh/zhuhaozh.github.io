@@ -17,6 +17,10 @@ $$ L = \frac {1}{N}\sum_{i}L_i(f(x_i,W),y_i)$$
 
 多类别的SVM损失
 ![multiclass svm loss ](/images/2018/04/multiclass-svm-loss.png)
+
+
+
+
 如果正确样本的值($s_{y_i}$)大于其他错误样本的值 + 边界值，那么它的损失为0,否则损失为 $s_j - s_{y_i} + 边界值$
 example :
 ![svm loss example](/images/2018/04/svm-loss-example.png)

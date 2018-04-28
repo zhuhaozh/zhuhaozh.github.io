@@ -2,8 +2,8 @@
 layout: post
 title: '论文阅读笔记：Learning to Compare: Relation Network for Few-Shot Learning'
 date: '2018-04-29 00:49'
-tags: paper-read
-categories: cvpr2018 gans
+categories: paper-read
+tags: cvpr2018 gans
 mathjax: true
 author: zh
 ---
@@ -17,6 +17,10 @@ author: zh
 
 1. 目前所使用的数据集与现实世界面临的差距很大，且数据量很少
 2. 不同数据集之间的domain gap会导致严重的性能下降，如不同的灯光条件、分辨率、季节、背景等原因
+
+
+
+
 
 ## 解决方案
 为了解决这两个问题，作者做了分别两方面的努力：
