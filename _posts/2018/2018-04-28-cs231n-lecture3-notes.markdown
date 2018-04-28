@@ -3,6 +3,9 @@ layout: post
 title: cs231n-lecture3-notes
 date: '2018-04-28 16:56'
 tags: cs231n
+mathjax: true
+author: zh
+
 ---
 
 ## Loss function
