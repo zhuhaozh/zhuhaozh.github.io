@@ -131,7 +131,6 @@ $$\mathcal{L}_1^w = -\sum_{i=1}^MlogP(D_i|Q_i) \tag{12}$$
 对称的，也同样要最小化：
 $$\mathcal{L}_2^w = -\sum_{i=1}^MlogP(Q_i|D_i) \tag{13}$$
 $$P(Q_i|D_i) = \frac{exp(\lambda_3R(Q_i,D_i))}{\sum_{j=1}^Mexp(\lambda_3R(Q_j,D_i))} $$
-
 如果用$R(Q,D) = (\frac{\overline{v}^T \overline{e}}{||\overline v|| * ||\overline e||})$来代替eq(11),(12),(13)中的式子，那么将能够得到损失方程$\mathcal{L}_1^s$，$\mathcal{L}_2^s$ (s代表"sentence"，$\overline{e}代表句子向量，$\overline v$代表全局图片向量)
 
 最后的DAMSM loss就被定义为：
@@ -142,3 +141,7 @@ $$\mathcal{L}_{DAMSM} = \mathcal{L}_{1}^{w} + \mathcal{L}_{2}^{w}+\mathcal{L}_{1
 
 
 ## 实验
+![experiment_1](/images/2018/05/experiment-1.png)
+![experiment_2](/images/2018/05/experiment-2.png)
+![experiment-3](/images/2018/05/experiment-3.png)
+![experiment-4](/images/2018/05/experiment-4.png)
