@@ -1,8 +1,8 @@
----
 layout: post
 title: cs231n lecture3笔记
+---
 date: '2018-04-28 16:56'
-tags: cs231n
+tags: cs231n notes
 mathjax: true
 author: zh
 
