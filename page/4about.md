@@ -12,7 +12,8 @@ type: page
 ## 关于我
 
 <iframe src="https://githubbadge.appspot.com/gaohaoyang?s=1" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder="0"></iframe>
-大四即将毕业。
+A first year master student in Anhui University. Research interest in computer vision. 
+
 
 
 ## 联系我
