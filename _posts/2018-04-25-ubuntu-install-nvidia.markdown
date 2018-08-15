@@ -86,7 +86,8 @@ alias lbm-nouveau off
 ```
 然后执行sudo rmmod nouveau, 再执行 sudo update-initramfs -u
 #### (3) 重新安装NVIDIA驱动
-目前暂时不要重启，重新安装驱动：sudo apt install nvidia-396（或其他版本的驱动，但cuda9.0以后需要的驱动版本至少是390）
+添加源：sudo add-apt-repository ppa:graphics-drivers/ppa
+目前暂时不要重启，重新安装驱动：sudo apt install nvidia-396（或其他版本的驱动，但cuda9.0以后需要的驱动版本需要384及其以上）
 
 #### (4) 解决上面提到的坑
 1. 让nvidia支持wayland：
@@ -196,7 +197,7 @@ make
 如果出现了一个动态烟雾的图案，则说明成功
 
 
-### 4. 编译pytorch
+### 4. 编译安装pytorch
 
 
 ## 总结的教训
