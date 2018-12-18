@@ -23,8 +23,10 @@
       hm.src = "//hm.baidu.com/hm.js?{{site.baidu_tongji_id}}";
       var s = document.getElementsByTagName("script")[0];
       s.parentNode.insertBefore(hm, s);
+      alert({{site.baidu_tongji_id}})
     })();
     </script>
+
 {% endif %}
 {% if site.google_analytics_id %}
     <script>
