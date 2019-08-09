@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-tagline: A few more words about this theme
+title: About: Hao Zhu(朱昊)
+tagline: ##########
 permalink: /about.html
 ref: about
 order: 0
