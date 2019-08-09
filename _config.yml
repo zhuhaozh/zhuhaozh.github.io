@@ -1,5 +1,5 @@
-title: Zhu Hao's Space
-description: Zhu Hao's personal space
+title: Hao's Space
+description: Hao's personal space
 show_downloads: true
 
 baseurl: "" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
@@ -27,4 +27,4 @@ plugins:
 target-blank:
     rel: nofollow
 
-header_page_refs: ['about', 'contact']
+header_page_refs: ['about']
