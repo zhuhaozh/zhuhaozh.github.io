@@ -2,7 +2,7 @@ title: Hao's Space
 description: Hao's personal space
 show_downloads: true
 
-baseurl: "" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
+baseurl: "about" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
 url: "https://zhuhaozh.github.io" # change this to the base hostname & protocol for your site
 
 
@@ -19,7 +19,7 @@ theme: # leave it empty
 author: zhu hao
 image: /thumbnail-jumbo.png
 twitter:
-  username: lorepirri
+  username: zhuhao
 
 plugins:
   - jekyll-target-blank
