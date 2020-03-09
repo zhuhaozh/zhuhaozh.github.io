@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-*Hao Zhu* is currently a master student in *Research Center of Cognitive Computing of Anhui University* supervised by Aihua Zheng. He is also a joint master student in *Center for Research on Intelligent Perception and Computing (CRIPAC), Institute of Automation, (CAS), mentored by Ran He.* 
+*Hao Zhu* is currently a master student in *Research Center of Cognitive Computing of Anhui University* supervised by Aihua Zheng. He is also a joint master student in *Center for Research on Intelligent Perception and Computing (CRIPAC), Institute of Automation, (CAS), mentored by Ran He.*  In 2018, he received bachelor's degree from Computer Science school of Anhui Polytechnic University. 
 
 ## News 
 - 2019-07 Research intern at Sensetime, Beijing. 
