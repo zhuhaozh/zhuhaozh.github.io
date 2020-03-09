@@ -12,7 +12,7 @@ redirect_from:
 
 ## News 
 - 2019-07 Research intern at Sensetime, Beijing. 
-- 2018-07 Start my graduate study and research at Anhui University.
+- 2018-09 Start my graduate study and research at Anhui University.
 
 ## Publications
 - **Hao Zhu**, Mandi Luo, Rui Wang, Aihua Zheng, Ran He. Deep Audio-Visual Learning: A Survey
