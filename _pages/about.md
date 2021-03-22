@@ -20,7 +20,7 @@ redirect_from:
 ## Publications
 - **Hao Zhu***, Chaoyou Fu*, Qianyi Wu, Wayne Wu, Chen Qian, and Ran He. AOT: Appearance Optimal Transport Based Identity Swapping for Forgery Detection.  (NeurIPS 2020) [project](https://github.com/zhuhaozh/AOT) [paper](paper)
 - **Hao Zhu**, Yi Li, Feixia Zhu, Aihua Zheng, and Ran He. Let's Play Music: Audio-driven Performance Video Generation.  (ICPR 2020)
-- Aihua Zheng, Feixia Zhu, **Hao Zhu**, Mandi Luo, Ran He. Talking Face Generation via Learning Semantic and Temporal Synchronous Landmarks。 (ICPR 2020)
+- Aihua Zheng, Feixia Zhu, **Hao Zhu**, Mandi Luo, Ran He. Talking Face Generation via Learning Semantic and Temporal Synchronous Landmarks. (ICPR 2020)
 - **Hao Zhu**, Huaibo Huang, Yi Li, Aihua Zheng, and Ran He. Arbitrary Talking Face Generation via Attentional Audio-visual Coherence Learning.  (IJCAI 2020) [paper](https://arxiv.org/abs/1812.06589)
 - **Hao Zhu**, Mandi Luo, Rui Wang, Aihua Zheng, Ran He. Deep Audio-Visual Learning: A Survey (IJAC) [paper](https://arxiv.org/abs/2001.04758)
 
