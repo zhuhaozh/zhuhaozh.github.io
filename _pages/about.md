@@ -11,8 +11,9 @@ redirect_from:
 *Hao Zhu* is currently a master student in *Research Center of Cognitive Computing of Anhui University* supervised by Aihua Zheng. He is also a joint master student in *Center for Research on Intelligent Perception and Computing (CRIPAC), Institute of Automation, Chineses Acdemic of Sciences (CASIA), mentored by Ran He.*  In 2018, he received bachelor's degree from Computer Science school of Anhui Polytechnic University. 
 
 ## News 
-- 2021-03  One survey on *audio visual learning* was accepted to IJAC. 
+- 2021-03 One survey on *audio visual learning* was accepted to IJAC. 
 - 2020-10 One paper was accepted to NeurIPS 2020.
+- 2020-03 One paper was accepted to IJCAI 2020. 
 - 2019-07 Research intern at Sensetime, Beijing. 
 - 2018-09 Start my graduate study and research at Anhui University.
 
