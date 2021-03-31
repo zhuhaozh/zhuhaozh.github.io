@@ -1,26 +1,29 @@
 ---
+layout: about
+title: about
 permalink: /
-title: "Hao Zhu (朱昊)  / About"
-excerpt: "About me"
-author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
+description: Hao Zhu's Homepage
+
+profile:
+  align: left 
+  image: prof_pic.jpg
+
+news: true  # includes a list of news items
+selected_papers: true # includes a list of papers marked as "selected={true}"
+social: true  # includes social icons at the bottom of the page
+
 ---
+Hao Zhu (朱昊) is currently a master student in <a href="#">Research Center of Cognitive Computing</a> of <a href="#">Anhui University</a> supervised by Aihua Zheng. 
+He is also a joint master student in <a href="#">Center for Research on Intelligent Perception and Computing (CRIPAC)</a>, Institute of Automation, Chineses Acdemic of Sciences (CASIA), mentored by Ran He. 
+In 2018, he received bachelor’s degree from Computer Science school of <a href="#">Anhui Polytechnic University</a>.
 
-*Hao Zhu* is currently a master student in *Research Center of Cognitive Computing of Anhui University* supervised by Aihua Zheng. He is also a joint master student in *Center for Research on Intelligent Perception and Computing (CRIPAC), Institute of Automation, Chineses Acdemic of Sciences (CASIA), mentored by Ran He.*  In 2018, he received bachelor's degree from Computer Science school of Anhui Polytechnic University. 
+Please feel free to contact me through <a href="mailto:haozhu96@gmail.com">email</a> if you have any questions.
 
-## News 
-- 2021-03 One survey on *audio visual learning* was accepted to IJAC. 
-- 2020-10 One paper was accepted to NeurIPS 2020.
-- 2020-03 One paper was accepted to IJCAI 2020. 
-- 2019-07 Research intern at Sensetime, Beijing. 
-- 2018-09 Start my graduate study and research at Anhui University.
+{% comment %} 
+Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-## Publications
-- **Hao Zhu***, Chaoyou Fu*, Qianyi Wu, Wayne Wu, Chen Qian, and Ran He. AOT: Appearance Optimal Transport Based Identity Swapping for Forgery Detection.  (NeurIPS 2020) [project](https://github.com/zhuhaozh/AOT) [paper](paper)
-- **Hao Zhu**, Yi Li, Feixia Zhu, Aihua Zheng, and Ran He. Let's Play Music: Audio-driven Performance Video Generation.  (ICPR 2020)
-- Aihua Zheng, Feixia Zhu, **Hao Zhu**, Mandi Luo, Ran He. Talking Face Generation via Learning Semantic and Temporal Synchronous Landmarks. (ICPR 2020)
-- **Hao Zhu**, Huaibo Huang, Yi Li, Aihua Zheng, and Ran He. Arbitrary Talking Face Generation via Attentional Audio-visual Coherence Learning.  (IJCAI 2020) [paper](https://arxiv.org/abs/1812.06589)
-- **Hao Zhu**, Mandi Luo, Rui Wang, Aihua Zheng, Ran He. Deep Audio-Visual Learning: A Survey (IJAC) [paper](https://arxiv.org/abs/2001.04758)
+Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
+Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+
+{% endcomment %}
