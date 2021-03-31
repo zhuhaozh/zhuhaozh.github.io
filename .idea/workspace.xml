@@ -26,10 +26,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/pubimg" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/pubimg" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="tmp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -70,7 +75,7 @@
       <updated>1617177852581</updated>
       <workItem from="1617177853916" duration="27000" />
       <workItem from="1617177883817" duration="5544000" />
-      <workItem from="1617185856793" duration="57000" />
+      <workItem from="1617185856793" duration="1257000" />
     </task>
     <servers />
   </component>

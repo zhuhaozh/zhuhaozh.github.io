@@ -13,9 +13,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 
 ---
-**Hao Zhu** (*朱昊 in Chinese*) is currently a master student in <a href="#">Research Center of Cognitive Computing</a> of <a href="#">Anhui University</a> supervised by Aihua Zheng. 
-He is also a joint master student in <a href="#">Center for Research on Intelligent Perception and Computing (CRIPAC)</a>, Institute of Automation, Chineses Acdemic of Sciences (CASIA), mentored by Ran He. 
+**Hao Zhu** (*朱昊 in Chinese*) is currently a master student in <a href="#">Research Center of Cognitive Computing</a> of <a href="#">Anhui University</a> mentored by *Aihua Zheng*. 
+He is also a joint master student in <a href="#">CRIPAC, Institute of Automation, Chineses Acdemic of Sciences (CASIA)</a>, supervised by *Ran He*. 
 In 2018, he received bachelor’s degree from Computer Science school of <a href="#">Anhui Polytechnic University</a>.
+He is now a research intern at <a href="#">Sensetime</a> working closely with *Wayne Wu* and <a href="https://wuqianyi.top">Qianyi Wu</a>.
 
 <u>Please feel free to contact me through <a href="mailto:haozhu96@gmail.com">email</a> if you have any questions.</u>
 
