@@ -147,24 +147,26 @@
 <p><sup>1</sup>Anhui University  ｜ <sup>2</sup>NLPR&amp;CRIPAC, CASIA ｜ <sup>3</sup>SenseTime Research</p>
 
 <p><a href="https://arxiv.org/abs/2011.02674">Paper</a> ｜ <a href="#">Demo</a>  ｜ <a href="#">Github</a></p>
-<hr />
 
 <p><img src="/assets/posts/aot/banner.gif" style="zoom:100%;" /></p>
+<hr />
 
+<h3 id="abstract">Abstract</h3>
 <blockquote>
-  <p><strong>Abstract:</strong> Recent studies have shown that the performance of forgery detection can be improved with diverse and challenging Deepfakes datasets. However, due to the lack of Deepfakes datasets with large variance in appearance, which can be hardly produced by recent identity swapping methods, the detection algorithm may fail in this situation. In this work, we provide a new identity swapping algorithm with large differences in appearance for face forgery detection. The appearance gaps mainly arise from the large discrepancies in illuminations and skin colors that widely exist in real-world scenarios. However, due to the difficulties of modeling the complex appearance mapping, it is challenging to transfer fine-grained appearances adaptively while preserving identity traits. This paper formulates appearance mapping as an optimal transport problem and proposes an Appearance Optimal Transport model (AOT) to formulate it in both latent and pixel space. Specifically, a relighting generator is designed to simulate the optimal transport plan. It is solved via minimizing the Wasserstein distance of the learned features in the latent space, enabling better performance and less computation than conventional optimization. To further refine the solution of the optimal transport plan, we develop a segmentation game to minimize the Wasserstein distance in the pixel space. A discriminator is introduced to distinguish the fake parts from a mix of real and fake image patches. Extensive experiments reveal that the superiority of our method when compared with state-of-the-art methods and the ability of our generated data to improve the performance of face forgery detection.</p>
+  <p>Recent studies have shown that the performance of forgery detection can be improved with diverse and challenging Deepfakes datasets. However, due to the lack of Deepfakes datasets with large variance in appearance, which can be hardly produced by recent identity swapping methods, the detection algorithm may fail in this situation. In this work, we provide a new identity swapping algorithm with large differences in appearance for face forgery detection. The appearance gaps mainly arise from the large discrepancies in illuminations and skin colors that widely exist in real-world scenarios. However, due to the difficulties of modeling the complex appearance mapping, it is challenging to transfer fine-grained appearances adaptively while preserving identity traits. This paper formulates appearance mapping as an optimal transport problem and proposes an Appearance Optimal Transport model (AOT) to formulate it in both latent and pixel space. Specifically, a relighting generator is designed to simulate the optimal transport plan. It is solved via minimizing the Wasserstein distance of the learned features in the latent space, enabling better performance and less computation than conventional optimization. To further refine the solution of the optimal transport plan, we develop a segmentation game to minimize the Wasserstein distance in the pixel space. A discriminator is introduced to distinguish the fake parts from a mix of real and fake image patches. Extensive experiments reveal that the superiority of our method when compared with state-of-the-art methods and the ability of our generated data to improve the performance of face forgery detection.</p>
 </blockquote>
 
+<h3 id="overview">Overview</h3>
 <p><img src="/assets/posts/aot/pipeline.png" alt="pipeline" style="zoom:80%;" /></p>
 
-<h2 id="important-note">Important Note</h2>
+<h3 id="important-note">Important Note</h3>
 
 <p>ANY RESOUCES PROVIDED HERE ARE NOT TO BE USED FOR MALICIOUS OR INAPPROPRIATE USE CASES.</p>
 
-<h2 id="face-forensics">Face Forensics</h2>
+<h3 id="face-forensics">Face Forensics</h3>
 <p>The following datasets and the checkpoints of detectors can be downloaded from the <a href="https://pan.baidu.com/s/143Xuvea-ICcFuvgYfyY-Wg">BaiduYun</a> (code: dzgc).</p>
 
-<h3 id="manipulated-dataset">Manipulated Dataset</h3>
+<h4 id="manipulated-dataset">Manipulated Dataset</h4>
 
 <p>We currently provide 100 manipulated videos of <a href="#">FF++</a> by refining the results of <a href="#">DeepFaceLab</a> and  <a href="#">DeeperForensics-1.0</a> respectively.</p>
 
@@ -172,7 +174,7 @@
 
 <p><img src="/assets/posts/aot/datasets.png" width="100%" align="center" /></p>
 
-<h3 id="face-forgery-detection">Face Forgery Detection</h3>
+<h4 id="face-forgery-detection">Face Forgery Detection</h4>
 
 <p>Binary detection accuracy of two video classification baselines: <a href="https://github.com/piergiaj/pytorch-i3d">I3D</a> and <a href="https://github.com/yjxiong/tsn-pytorch">TSN</a> on the hidden set provided by <a href="https://github.com/EndlessSora/DeeperForensics-1.0">DeeperForensics-1.0</a>.
 1) We trained the baselines on four manipulated datasets of <a href="#">FF++</a> produced by <a href="#">DeepFakes</a>,  <a href="#">Face2Face</a>, <a href="#">FaceSwap</a>, and <a href="#">NeuralTextures</a> <strong>(Green bars)</strong>.</p>
@@ -181,7 +183,7 @@
 
 <p><img src="/assets/posts/aot/detection_results.png" width="80%" align="center" /></p>
 
-<h2 id="citation">Citation</h2>
+<h3 id="citation">Citation</h3>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@inproceedings{aot2020neurips,
   title={AOT: Appearance Optimal Transport Based Identity Swapping for Forgery Detection},
   author={Zhu, Hao and Fu, Chaoyou and Wu, Qianyi and Wu, Wayne and Qian, Chen and He, Ran},
@@ -190,9 +192,9 @@
 }
 </code></pre></div></div>
 
-<h2 id="acknowledgments">Acknowledgments</h2>
-
-<p>Coming soon.</p>
+<h3 id="acknowledgments">Acknowledgments</h3>
+<p>This work is partially funded by Beijing Natural Science Foundation (Grant No. JQ18017) and Youth
+Innovation Promotion Association CAS (Grant No. Y201929).</p>
 
   </article>
 

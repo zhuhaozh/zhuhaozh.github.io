@@ -2,35 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f9692c2-85d7-4ab3-aa50-d96749975792" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_posts/2020-12-03-formatting-and-links.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2015-03-15-formatting-and-links.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2015-05-15-images.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2015-07-15-code.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2015-10-20-comments.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2015-10-20-math.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-12-22-distill.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-09-28-github-metadata.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-09-28-twitter.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2015/03/16/formatting-and-links.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2015/05/16/images.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2015/07/15/code.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2015/10/20/comments.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2015/10/20/math.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2018/12/22/distill.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2020/09/28/twitter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2020/09/29/github-metadata.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/_site/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/blog/page/2/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/blog/page/3/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-12-03-formatting-and-links.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-12-03-formatting-and-links.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/2021/04/06/2020-12-03-formatting-and-links.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2021/04/06/2020-12-03-formatting-and-links.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/news/announcement_ahu/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/news/announcement_ahu/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/news/announcement_icpr20/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/news/announcement_icpr20/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/news/announcement_ijac21/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/news/announcement_ijac21/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/news/announcement_ijcai20/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/news/announcement_ijcai20/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/news/announcement_nips20/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/news/announcement_nips20/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/publications/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/publications/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,7 +84,7 @@
       <workItem from="1617177883817" duration="5544000" />
       <workItem from="1617185856793" duration="2148000" />
       <workItem from="1617333344287" duration="4698000" />
-      <workItem from="1617698910640" duration="1443000" />
+      <workItem from="1617698910640" duration="2045000" />
     </task>
     <servers />
   </component>
