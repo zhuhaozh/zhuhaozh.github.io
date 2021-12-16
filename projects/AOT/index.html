@@ -11,29 +11,6 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- <base href="/"> -->
-
-        <!--FACEBOOK-->
-    <!-- <meta property="og:image" content="https://jonbarron.info/mipnerf/img/rays_square.png"> -->
-    <!-- <meta property="og:image:type" content="image/png">
-    <meta property="og:image:width" content="682">
-    <meta property="og:image:height" content="682">
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://jonbarron.info/mipnerf/"/>
-    <meta property="og:title" content="mip-NeRF" />
-    <meta property="og:description" content="Project page for Mip-NeRF: A Multiscale Representation for Anti-Aliasing Neural Radiance Fields." /> -->
-
-        <!--TWITTER-->
-    <!-- <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="mip-NeRF" />
-    <meta name="twitter:description" content="Project page for Mip-NeRF: A Multiscale Representation for Anti-Aliasing Neural Radiance Fields." />
-    <meta name="twitter:image" content="https://jonbarron.info/mipnerf/img/rays_square.png" /> -->
-
-
-<!--     <link rel="apple-touch-icon" href="apple-touch-icon.png"> -->
-  <!-- <link rel="icon" type="image/png" href="img/seal_icon.png"> -->
-    <!-- Place favicon.ico in the root directory -->
-
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.8.0/codemirror.min.css">
@@ -126,7 +103,7 @@
                             </a>
                         </li> -->
                         <li>
-                            <a href="https://github.com/google/mipnerf">
+                            <a href="https://github.com/zhuhaozh/AOT">
                             <image src="img/github.png" height="60px">
                                 <h4><strong>Code & Dataset</strong></h4>
                             </a>
@@ -214,66 +191,6 @@ This paper formulates appearance mapping as an optimal transport problem and pro
         </div>
             
 
-<!-- 
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                <h3>
-                    Results
-                </h3>
-                <p class="text-justify">
-                    We train NeRF and mip-NeRF on a dataset with images at four different resolutions. Normal NeRF (left) is not capable of learning to represent the same scene at multiple levels of detail, with blurring in close-up shots and aliasing in low resolution views, while mip-NeRF (right) both preserves sharp details in close-ups and correctly renders the zoomed-out images.
-                </p>                
-                <br>
-                <video id="v0" width="100%" autoplay loop muted controls>
-                  <source src="img/ship_sbs_path1.mp4" type="video/mp4" />
-                </video>
-                <video id="v0" width="100%" autoplay loop muted controls>
-                  <source src="img/chair_sbs_path1.mp4" type="video/mp4" />
-                </video>
-                <video id="v0" width="100%" autoplay loop muted controls>
-                  <source src="img/lego_sbs_path1.mp4" type="video/mp4" />
-                </video>
-                <video id="v0" width="100%" autoplay loop muted controls>
-                  <source src="img/mic_sbs_path1.mp4" type="video/mp4" />
-                </video>
-                <br><br>
-                <p class="text-justify">
-                    We can also manipulate the integrated positional encoding by using a larger or smaller radius than the true pixel footprint, exposing the continuous level of detail learned within a single network:
-                </p>     
-                <video id="v0" width="100%" autoplay loop muted controls>
-                  <source src="img/lego_radii_manip_slider_200p.mp4" type="video/mp4" />
-                </video>
-            </div>
-        </div> -->
-
-<!-- 
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                <h3>
-                    Related links
-                </h3>
-                <p class="text-justify">
-                    <a href="https://en.wikipedia.org/wiki/Spatial_anti-aliasing">Wikipedia</a> provides an excellent introduction to spatial anti-aliasing techniques.
-                </p>
-                <p class="text-justify">
-                    Mipmaps were introduced by Lance Williams in his paper "Pyramidal Parametrics" (<a href="https://software.intel.com/sites/default/files/m/7/2/c/p1-williams.pdf">Williams (1983)</a>).
-                </p>
-                <p class="text-justify">
-                    <a href="https://dl.acm.org/doi/abs/10.1145/964965.808589">Amanatides (1984)</a> first proposed the idea of replacing rays with cones in computer graphics rendering. 
-                </p>
-                <p class="text-justify">
-                    The closely related concept of <em>ray differentials</em> (<a href="https://graphics.stanford.edu/papers/trd/">Igehy (1999)</a>) is used in most modern renderers to antialias textures and other material buffers during ray tracing.
-                </p>
-                <p class="text-justify">
-                    Cone tracing has been used along with prefiltered voxel-based representations of scene geometry for speeding up indirect illumination calculations in <a href="https://research.nvidia.com/sites/default/files/publications/GIVoxels-pg2011-authors.pdf">Crassin et al. (2011)</a>.
-                </p>
-                <p class="text-justify">
-                    Mip-NeRF was implemented on top of the <a href="https://github.com/google-research/google-research/tree/master/jaxnerf">JAXNeRF</a> codebase.
-                </p>
-            </div>
-        </div>
-         -->
-            
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <h3>
